@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIPAA Made Simple — Devices + compliance tools for small healthcare practices</title>
+    <meta name="description" content="Managed MacBooks and a smart HIPAA checklist for small healthcare practices. $100/device/month. Everything included.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="HIPAA Made Simple — Devices + compliance tools for small healthcare practices">
+    <meta property="og:description" content="Managed MacBooks and a smart HIPAA checklist for small healthcare practices. $100/device/month. Everything included.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hipaamadesimple.io">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="HIPAA Made Simple">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HIPAA Made Simple — Devices + compliance tools for small healthcare practices">
+    <meta name="twitter:description" content="Managed MacBooks and a smart HIPAA checklist for small healthcare practices. $100/device/month. Everything included.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700,800" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "HIPAA Made Simple",
+        "description": "Managed MacBooks and a smart HIPAA checklist for small healthcare practices.",
+        "url": "https://hipaamadesimple.io",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "macOS",
+        "offers": {
+            "@type": "Offer",
+            "price": "100",
+            "priceCurrency": "USD",
+            "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "100",
+                "priceCurrency": "USD",
+                "unitText": "device/month"
+            }
+        },
+        "provider": {
+            "@type": "Organization",
+            "name": "hipaa.inc",
+            "url": "https://hipaa.inc"
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- NAV                                     -->
+    <!-- ═══════════════════════════════════════ -->
+    <nav id="nav" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo" aria-label="HIPAA Made Simple — Home">HIPAA Made Simple</a>
+            <div class="nav-right">
+                <a href="https://app.hipaamadesimple.io/" class="nav-link">Log in</a>
+                <a href="#pricing" class="nav-cta">Get started</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ═══════════════════════════════════════ -->
+        <!-- HERO + SCROLL ANIMATION (Unified)       -->
+        <!-- MacBook → Chaos as you scroll down       -->
+        <!-- ═══════════════════════════════════════ -->
+        <section class="hero-scroll" id="top">
+            <!-- Scroll distance: 300vh gives smooth scrub over 145 frames -->
+            <div class="hero-scroll-track">
+
+                <!-- Sticky container: stays in viewport while you scroll -->
+                <div class="hero-scroll-sticky">
+
+                    <!-- Canvas renders the video frames -->
+                    <canvas id="scroll-canvas"></canvas>
+
+                    <!-- Hero copy overlays the first frame (fades out on scroll) -->
+                    <div class="hero-overlay" id="heroOverlay">
+                        <h1 class="hero-headline">
+                            <span class="hero-line">HIPAA Could Be as Simple as</span>
+                            <span class="hero-line accent">a Managed MacBook.</span>
+                        </h1>
+                        <p class="hero-sub">It is. Each MacBook ships secured, monitored, and compliant — with a smart checklist that orchestrates your entire HIPAA program. $100/month per device. Everything included.</p>
+                        <div class="hero-ctas">
+                            <a href="mailto:griff@hipaa.inc" class="btn btn-primary">Get started</a>
+                            <a href="#how" class="btn btn-ghost">How it works</a>
+                        </div>
+                    </div>
+
+                    <!-- Chaos copy fades IN as animation reaches the end -->
+                    <div class="chaos-overlay" id="chaosOverlay">
+                        <p class="chaos-text">But Maybe You Just Love <span class="chaos-accent">HIPAA Complexity.</span></p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════ -->
+        <!-- SOCIAL PROOF BAR                        -->
+        <!-- ═══════════════════════════════════════ -->
+        <section class="proof-bar">
+            <div class="container">
+                <p class="proof-text">From the team that built security programs at <strong>Harvard</strong> and the <strong>Defense Health Agency</strong>.</p>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════ -->
+        <!-- WHAT YOU GET                            -->
+        <!-- ═══════════════════════════════════════ -->
+        <section class="features" id="features">
+            <div class="container">
+                <h2 class="section-head">Everything inside.</h2>
+                <p class="section-sub">A device that's secured from the moment it ships. A checklist that runs your compliance program without you chasing anyone.</p>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                        </div>
+                        <h3>The device.</h3>
+                        <ul class="feature-list">
+                            <li>Brand new MacBook Neo, shipped to your staff</li>
+                            <li>Encrypted and configured before it leaves the box</li>
+                            <li>SIEM/XDR monitoring from the moment it powers on</li>
+                            <li>Patched automatically. Vulnerabilities caught in real time.</li>
+                            <li>Full asset inventory, ready for your risk assessment</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                        </div>
+                        <h3>The checklist.</h3>
+                        <ul class="feature-list">
+                            <li>Every HIPAA task in one place. Training, attestations, risk assessments, policy reviews.</li>
+                            <li>The right task shows up for the right person at the right time</li>
+                            <li>AI walks your team through the hard stuff step by step</li>
+                            <li>Every completed task becomes audit evidence automatically</li>
+                            <li>Ask your policies a question. Get an answer.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════ -->
+        <!-- HOW IT WORKS                            -->
+        <!-- ═══════════════════════════════════════ -->
+        <section class="how" id="how">
+            <div class="container">
+                <h2 class="section-head">Three steps. That's it.</h2>
+
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-connector" aria-hidden="true"></div>
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Upload your policies.</h3>
+                            <p>We index everything you have. Don't have policies yet? We'll build them with you.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-connector" aria-hidden="true"></div>
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Open the box.</h3>
+                            <p>Your team gets MacBook Neos. Encrypted, monitored, and ready to work the moment they power on.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-connector" aria-hidden="true"></div>
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Follow the checklist.</h3>
+                            <p>Tasks show up when they're due. Your team knocks them out. Every action logged as evidence. That's your HIPAA program, running.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════ -->
+        <!-- PRICING COMPARISON                      -->
+        <!-- ═══════════════════════════════════════ -->
+        <section class="comparison" id="compare">
+            <div class="container">
+                <h2 class="section-head">Right now, your practice is in one of these three places.</h2>
+
+                <div class="tiers">
+                    <div class="tier tier-bad">
+                        <div class="tier-label">Where most practices are</div>
+                        <h3><em>Willful neglect.</em></h3>
+                        <p>No compliance program. No device security. Laptops from Amazon. Hope for the best.</p>
+                        <p>When you get audited — and audits are increasing — the government looks at what you've done. If the answer is nothing, that's <strong>willful neglect</strong> under HIPAA. It's the highest penalty tier. It can <strong>multiply your fines by 100x</strong> and carry criminal charges. A $10,000 violation becomes $1.5 million. A single finding at this level can end a practice.</p>
+                        <p>90% of small healthcare is here right now.</p>
+                        <div class="tier-cost">$0 until the audit. Then everything.</div>
+                    </div>
+
+                    <div class="tier tier-bad">
+                        <div class="tier-label">Option 2</div>
+                        <h3>Do what big healthcare does.</h3>
+                        <p>IT department manages devices. Security operations center monitors threats. Compliance team runs the program. Annual budgets in the millions.</p>
+                        <p>That model works — if you're a hospital with 5,000 employees. It was never designed for a practice with 10.</p>
+                        <div class="tier-cost">Built for big healthcare. Priced for big healthcare.</div>
+                    </div>
+
+                    <div class="tier tier-good">
+                        <div class="tier-label">Option 3</div>
+                        <h3>HIPAA Made Simple.</h3>
+                        <p>Your team gets MacBook Neos. They're secured, monitored, and compliant before anyone opens the box. A smart checklist orchestrates your entire HIPAA program — training, risk assessments, policies — and logs everything as audit evidence.</p>
+                        <p>You were going to buy computers anyway. Buy these ones. The HIPAA problem goes away.</p>
+                        <div class="tier-cost tier-cost-good">$100 per device/month. Everything included.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════ -->
+        <!-- CREDIBILITY                             -->
+        <!-- ═══════════════════════════════════════ -->
+        <section class="credibility" id="about">
+            <div class="container">
+                <h2 class="section-head">We've done this at scale.</h2>
+                <p class="cred-body">We built security programs for Harvard and the Defense Health Agency. Thousands of endpoints. Real compliance. Real audits.</p>
+                <p class="cred-body">Then we looked at small healthcare and realized: the same problems exist, but there's no budget for a team to solve them. So we built the team into the device.</p>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════ -->
+        <!-- PRICING                                 -->
+        <!-- ═══════════════════════════════════════ -->
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <h2 class="section-head">$100/month. Everything.</h2>
+                <p class="section-sub">Per device. No tiers. No add-ons. No surprise invoices.</p>
+
+                <div class="price-card">
+                    <div class="price-amount">
+                        <span class="price-dollar">$</span><span class="price-number">100</span>
+                    </div>
+                    <div class="price-unit">per device / month</div>
+
+                    <ul class="price-includes">
+                        <li>Brand new MacBook Neo for every team member</li>
+                        <li>Encrypted, patched, and monitored from day one</li>
+                        <li>SIEM/XDR — we see threats before you do</li>
+                        <li>Full HIPAA compliance checklist with AI guidance</li>
+                        <li>Policy chat — ask your policies anything, anytime</li>
+                        <li>Audit-ready evidence. Always current. Always exportable.</li>
+                    </ul>
+
+                    <a href="mailto:griff@hipaa.inc" class="btn btn-primary btn-full">Get started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════ -->
+        <!-- FINAL CTA                               -->
+        <!-- ═══════════════════════════════════════ -->
+        <section class="final-cta">
+            <div class="container">
+                <h2 class="section-head">Your practice deserves real security. Not a binder on a shelf.</h2>
+                <p class="section-sub">Devices. Monitoring. Compliance. One price. Let's go.</p>
+                <a href="mailto:griff@hipaa.inc" class="btn btn-white">Get started</a>
+                <p class="contact-alt">Or email <a href="mailto:griff@hipaa.inc">griff@hipaa.inc</a></p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- FOOTER                                  -->
+    <!-- ═══════════════════════════════════════ -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <a href="https://hipaa.inc/">hipaa.inc</a></p>
+        </div>
+    </footer>
+
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+
+</body>
+</html>
