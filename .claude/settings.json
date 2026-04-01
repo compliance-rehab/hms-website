@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd /home/griffbrown/repos/hms-website/site && git add -A && if ! git diff --cached --quiet; then git commit -m \"$(git diff --cached --stat | tail -1 | sed 's/^ */Session update: /')\" -m 'Auto-committed on session close' -m 'Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>'; fi"
+            "command": "cd /home/griffbrown/repos/hms-website/site && git add -A && if ! git diff --cached --quiet; then git commit -m \"$(git diff --cached --stat | tail -1 | sed 's/^ */Session update: /')\" -m 'Auto-committed on session close' -m 'Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>' && git push; fi"
           }
         ]
       }
