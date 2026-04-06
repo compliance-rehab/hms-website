@@ -165,9 +165,8 @@ nav {
 }
 
 .nav-logo {
-    font-weight: 700;
-    font-size: 15px;
-    letter-spacing: -0.02em;
+    display: inline-flex;
+    align-items: center;
 }
 
 .nav-right {
